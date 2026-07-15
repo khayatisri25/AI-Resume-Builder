@@ -68,3 +68,23 @@ npm run dev
 ├── package.json              # Main project package configurations
 ├── requirements.txt          # Python packages and dependencies
 └── README.md                 # Project documentation
+---
+
+## 🏗️ System Architecture
+
+The application follows a decoupled **Client-Server Architecture**, designed for scalability and clean separation of concerns:
+
+1. **Frontend Tier (React + Vite + Tailwind CSS):** A responsive, state-driven user interface. It handles user inputs (resume data, job descriptions), manages application state, and handles dynamic multi-page workflows (Dashboard, Resume Builder, live PDF/HTML previewing).
+2. **Backend Tier (Python + FastAPI/Flask):** A lightweight API service responsible for routing client requests, handling business logic, managing database interactions, and secure communication with upstream AI models.
+3. **Database Tier (SQLite):** An embedded relational database (`resume_builder.db`) tracking user profiles, saved resumes, historical generations, and application states.
+
+---
+
+## 🤖 AI Workflow & Pipeline
+
+The core intelligence of the application follows a structured data engineering and LLM orchestration pipeline:
+
+```text
+[User Input Data] ──> [Prompt Engine] ──> [LLM / AI Model] ──> [Parser & Sanitizer] ──> [Dynamic UI / PDF Generation]
+       │                   ▲
+       └──> [Job Description]
