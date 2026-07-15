@@ -68,6 +68,7 @@ npm run dev
 ├── package.json              # Main project package configurations
 ├── requirements.txt          # Python packages and dependencies
 └── README.md                 # Project documentation
+```
 ---
 
 ## 🏗️ System Architecture
