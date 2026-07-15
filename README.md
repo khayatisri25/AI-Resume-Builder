@@ -27,27 +27,44 @@ Copy and run these commands in your terminal to clone, install, and start the ap
 git clone [https://github.com/khayatisri25/AI-Resume-Builder.git](https://github.com/khayatisri25/AI-Resume-Builder.git)
 cd AI-Resume-Builder
 
-# 2. Navigate to the frontend and install packages
+# 2. Navigate to the backend (python)
+cd backend
+# Activate your virtual environment (windows)
+.\venv\Scripts\activate
+# Install python packages
+pip install -r requirements.txt
+# To run
+python app.py
+
+# 3. Navigate to the frontend and install packages
 cd frontend
 npm install
 
-# 3. Start the local development server
+# 4. Start the local development server
 npm run dev
 
 ```
 ### 📂 Project Structure
-
-├── frontend/                # React application
-│   ├── src/
-│   │   ├── components/      # Reusable UI elements
-│   │   ├── pages/           # Dashboard, Builder, etc.
-│   │   ├── services/        # API calls
-│   │   └── main.jsx         # App entry point
-│   ├── package.json         # Frontend dependencies
-│   └── vite.config.js
-├── backend/                 # Server-side code
-│   ├── controllers/         # Request handling logic
-│   ├── routes/              # API endpoints
-│   ├── server.js            # Main server entry file
-│   └── package.json         # Backend dependencies
-└── README.md
+```text
+├── backend/                  # Python backend application
+│   ├── prompts/              # AI prompt templates
+│   ├── services/             # Backend business logic & API services
+│   ├── tests/                # Unit and integration tests
+│   ├── venv/                 # Python virtual environment (ignored by Git)
+│   ├── .gitignore            # Backend-specific ignore rules
+│   ├── app.py                # Main backend application entry point
+│   ├── config.py             # Configuration settings
+│   ├── database.py           # Database connection file
+│   ├── models.py             # Database models
+│   └── schemas.py            # Data serialization schemas
+├── database/                 # Local database storage
+│   └── resume_builder.db     # SQLite database file
+├── frontend/                 # React/Vite frontend application
+├── generated/                # Output directory for generated resumes/PDFs
+├── logs/                     # Application log files
+├── .env.example              # Template for environment variables
+├── docker-compose.yml        # Docker multi-container setup
+├── Dockerfile                # Docker container configuration
+├── package.json              # Main project package configurations
+├── requirements.txt          # Python packages and dependencies
+└── README.md                 # Project documentation
