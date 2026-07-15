@@ -5,7 +5,7 @@ An end-to-end AI-powered Career Assistant that builds ATS-optimized resumes, enh
 
 - **Frontend:** React.js, Vite, Tailwind CSS
 - **Icons:** Lucide React
-- **Backend/AI Integration:** Node.js / Python (Modify this depending on what your backend is!)
+- **Backend:** Node.js (Express)
 
 ---
 
@@ -18,36 +18,23 @@ Before running this project, ensure you have the following installed on your loc
 
 ---
 
-## 🚀 Getting Started & Setup
+## 🚀 Getting Started & Execution
 
-Follow these steps to clone, install, and run the project locally.
+Copy and run these commands in your terminal to clone, install, and start the application:
 
-### 1. Clone the Repository
 ```bash
+# 1. Clone the repository and navigate into the folder
 git clone [https://github.com/khayatisri25/AI-Resume-Builder.git](https://github.com/khayatisri25/AI-Resume-Builder.git)
 cd AI-Resume-Builder
----
-### 2. Install Dependencies
-Navigate into your frontend directory and install the required npm packages:
-```bash
+
+# 2. Navigate to the frontend and install packages
 cd frontend
 npm install
----
-### 3.Environment Configuration (Optional)
 
-If your application relies on AI APIs (like OpenAI, Gemini, etc.), create a .env file in your root/backend directory and add your API keys:
-```bash
-VITE_API_KEY=your_api_key_here
----
-
-💻 Execution Instructions
-To launch the development server locally, run:
-```bash
+# 3. Start the local development server
 npm run dev
-Once the server starts, open your browser and navigate to the local host address shown in your terminal (usually http://localhost:5173).
----
 
-📂 Project Structure
+### 📂 Project Structure
 
 ├── frontend/                # React application
 │   ├── src/
@@ -60,14 +47,6 @@ Once the server starts, open your browser and navigate to the local host address
 ├── backend/                 # Server-side code
 │   ├── controllers/         # Request handling logic
 │   ├── routes/              # API endpoints
-│   ├── models/              # Database schemas
-│   └── server.js            # Main server entry file
-├── .env                     # Environment variables (do not commit!)
+│   ├── server.js            # Main server entry file
+│   └── package.json         # Backend dependencies
 └── README.md
----
-
-### Why this is perfect for your assessment:
-* It shows **professionalism** by clearly detailing prerequisites, installation, and execution scripts.
-* It includes a clean **Project Structure** section, which hiring managers love because it shows you understand clean codebase organization.
-
-```
