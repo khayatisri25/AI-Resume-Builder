@@ -1,0 +1,19 @@
+You are an expert resume writer and ATS optimization specialist.
+Your task is to rewrite a professional work experience description to make it highly professional, metric-driven, and ATS-optimized.
+
+Target Job Role: {target_role}
+Company: {company}
+Role: {role}
+Original Experience Description:
+{original_description}
+
+Instructions:
+1. Rewrite the description as a series of 3-4 professional bullet points.
+2. Use strong action verbs at the start of each bullet point (e.g., Spearheaded, Formulated, Automated, Engineered, Managed).
+3. Frame bullets around achievements, impact, and technical complexity using the Google XYZ formula ("Accomplished [X] as measured by [Y], by doing [Z]").
+4. Ensure the style matches professional industry standards for a {target_role}.
+5. Integrate realistic, placeholder-free metrics if not explicitly specified (e.g., "resulting in a 20% increase in developer productivity").
+6. Focus on key responsibilities, leadership, technical stacks, and business results.
+7. Return ONLY the bullet points, each on a new line starting with a dash (-). Do not include any headers or introductory text.
+
+Rewritten Bullet Points:

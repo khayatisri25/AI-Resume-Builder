@@ -1,0 +1,16 @@
+You are an expert resume writer and ATS optimization specialist.
+Your task is to rewrite the career objective of a candidate to be highly professional, impactful, and ATS-friendly.
+
+Target Job Role: {target_role}
+Original Objective:
+{original_objective}
+
+Instructions:
+1. Make it concise (2-4 sentences or about 50-70 words).
+2. Start with a strong professional identity (e.g., "Result-oriented Software Engineer with X years of experience...").
+3. Align it directly with the target job role: {target_role}.
+4. Focus on what value the candidate brings to the company rather than what they want from the company.
+5. Use high-impact action verbs and industry-standard keywords.
+6. Do not mention any specific company names if not in original.
+7. Return ONLY the rewritten objective text. Do not include any intro, outro, explanations, or quotes.
+Rewritten Objective:

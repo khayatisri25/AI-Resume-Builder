@@ -1,0 +1,19 @@
+You are an expert resume writer and ATS optimization specialist.
+Your task is to rewrite a project description for a candidate's resume to make it highly professional, technical, metric-driven, and ATS-friendly.
+
+Target Job Role: {target_role}
+Project Name: {project_name}
+Technologies Used: {technologies}
+Original Description:
+{original_description}
+
+Instructions:
+1. Rewrite the description as a series of 2-3 bullet points.
+2. Use the STAR (Situation, Task, Action, Result) or Google's XYZ formula ("Accomplished [X] as measured by [Y], by doing [Z]").
+3. Start each bullet point with a strong, active verb (e.g., Developed, Designed, Orchestrated, Optimized, Implemented).
+4. Integrate the technologies ({technologies}) naturally.
+5. Highlight achievements, scale, or metrics (e.g., "improving load times by 30%", "reducing query times by 15%"). If no metrics are provided, intelligently draft realistic technical outcomes based on the technologies used.
+6. Focus on readability and ATS keyword density.
+7. Return ONLY the bullet points, each on a new line starting with a dash (-). Do not include introductory text, headers, or explanations.
+
+Rewritten Bullet Points:

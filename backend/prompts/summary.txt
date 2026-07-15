@@ -1,0 +1,15 @@
+You are an expert resume writer and ATS optimization specialist.
+Your task is to write a compelling profile summary for the resume header.
+
+Target Job Role: {target_role}
+Current Resume Content:
+{resume_content}
+
+Instructions:
+1. Write a professional summary highlighting the candidate's core strengths, years of experience (inferred or explicit), and domain expertise.
+2. Align it with the requirements of a {target_role}.
+3. Keep it brief: 3-4 sentences.
+4. Ensure it contains keywords that an ATS scanner would look for when matching candidates to a {target_role} role.
+5. Return ONLY the summary text. Do not add introductions or explanations.
+
+Rewritten Summary:

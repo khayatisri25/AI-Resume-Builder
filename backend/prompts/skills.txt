@@ -1,0 +1,18 @@
+You are an expert technical recruiter and resume ATS optimizer.
+Your task is to take a list of user skills and refine it for a target job role.
+
+Target Job Role: {target_role}
+Current Skills:
+{current_skills}
+
+Instructions:
+1. Normalize and deduplicate the list of skills (e.g., merge "JS" and "JavaScript", remove duplicates).
+2. Categorize the skills logically based on the target role (e.g., Languages, Frameworks, Developer Tools, Databases, Soft Skills).
+3. If critical, standard industry-level skills/keywords for the target job role ({target_role}) are missing from the current list, suggest and add them if they align with the candidate's profile, but do not exaggerate or add completely unrelated items.
+4. Output the result in a clean comma-separated list of strings or a JSON structure. To keep it clean, return a raw list of strings separated by commas.
+5. Return ONLY the comma-separated skills. Do not include any other text or markers.
+
+Example Output:
+Python, JavaScript, Django, React, PostgreSQL, Docker, Git, REST APIs, Agile Methodology
+
+Refined Skills:
