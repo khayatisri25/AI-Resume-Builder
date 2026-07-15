@@ -34,6 +34,7 @@ npm install
 # 3. Start the local development server
 npm run dev
 
+```
 ### 📂 Project Structure
 
 ├── frontend/                # React application
